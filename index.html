@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>News Mood</title>
+  <style>
+        table {
+            border-collapse: collapse;
+            border: 2px black solid;
+            font: 12px sans-serif;
+        }
+
+        td {
+            border: 1px black solid;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+  <h1>Twitter News Sentiment Analysis</h1>
+  <h2>Project Background</h2>
+  <hr>
+  <p><b>Twitter</b> has become a wildly sprawling jungle of information—140 characters at a time. Somewhere between 350 million and 500 million tweets are estimated to be sent out per day. With such an explosion of data, on Twitter and elsewhere, it becomes more important than ever to tame it in some way, to concisely capture the essence of the data.</p>
+  <h2>Project Ask</h2>
+  <hr>
+  <p>For this project, I created a Python script to perform sentiment analysis of the Twitter activity of various news outlets, and visualized the results using MatPlotLib. The news outlets that were analyzed are listed below:</p>
+  <ul>
+        <li><b>BBC</b></li>
+        <li><b>CBS</b></li>
+        <li><b>CNN</b></li>
+        <li><b>Fox</b></li>
+        <li><b>New York Times</b></li>
+    </ul>
+    <p>The first plot is a scatter plot of sentiments of the last <b>100</b> tweets sent out by each news organization. The plot shows the average compound sentiment of each set of tweets. The plot points were relative to their respective time stamps:</p>
+
+  <img src="Sentiment_Analysis_Tweets.png" alt="Sentiment_Analysis_Tweets">
+      <br>
+      <p>The second plot is a bar plot visualizing the overall sentiments of the last 100 tweets from each news outlet:</p>
+
+      <img src="Overall_Media_Sentiment.png" alt="Overall_Media_Sentiment">
+
+</body>
+
+</html>
